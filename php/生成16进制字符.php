@@ -1,0 +1,1 @@
+$a="eval('echo 123;')";$t='';for ($b=0;$b<strlen($a);$b++){$c=substr($a,$b,1);$t=$t.'chr(0x'.(string)bin2hex($c).').';}echo $t;
